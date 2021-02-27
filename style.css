@@ -1,0 +1,138 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+.navbar{
+     height: 10vh;
+     display: grid;
+     grid-template-columns: 1.5fr 6fr 6fr;
+}
+
+.navbar_left{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.navbar_left_in{
+     display: flex;
+     align-items: center;
+}
+.navbar_left_in_img1{
+     margin-right: 10px;
+}
+.navbar_left_in_p1{
+     margin-left: 5px;
+}
+.navbar_center{
+     display: flex;
+     align-items: center;
+}
+.search{
+     background: #EBEBEB;
+     mix-blend-mode: normal;
+     opacity: 0.3;
+     border-radius: 22px;
+     width: 830px;
+     height: 44px;
+     outline: none;
+}
+.navbar_right{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+}
+.navbar_right_in{
+     margin-right: 70px;
+}
+
+.menu{
+     height: 90vh;
+     display: grid;
+     grid-template-columns: 1fr 6fr;
+}
+.menu_left{
+     
+}
+
+
+.menu_left_div1{
+     display: flex;
+     align-items: center;
+     margin-left: 32px;
+     padding-bottom: 18px;
+}
+.menu_left_div2{
+     display: flex;
+     align-items: center;
+     margin-left: 32px;
+     padding-bottom: 60px;
+}
+.menu_left_div1_p1{
+     padding-top: 28px;
+     padding-left: 25px;
+}.menu_left_div1_img{
+     margin-top: 107px;
+}
+.menu_left_div3{
+     display: flex;
+     align-items: center;
+     margin-left: 32px;
+     padding-top: 80px;   
+}
+.plar{
+     padding-left: 13px;
+}
+
+.menu_right{
+     background: lightyellow;
+     display: grid;
+     grid-template-rows: 1fr 8fr;
+}
+.menu_right_top{
+     background: lightskyblue;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+
+}
+.menu_right_top_div1_div1{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.menu_right_top_div1_div2{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.right_img{
+     margin-right: 150px;
+}
+.left_img{
+     margin-right: 10px;
+}
+.menu_right_bottom{
+     background: lightslategray;
+     display: grid;
+     grid-template-rows: 1fr 2fr 1fr;
+}
+.menu_right_bottom_div1{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+     
+}
+.menu_right_bottom_div1_div1{
+     display: flex;
+     flex-direction: column;
+     padding: 8px;
+}
+.menu_right_bottom_div1_div2{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+}
+.menu_right_bottom_div2{
+     background: cyan;
+     /* padding-top: 150px; */
+
+}
